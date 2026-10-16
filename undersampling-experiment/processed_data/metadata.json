@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-04-30T12:49:23",
+  "input_path": "C:\\Users\\Lenovo\\Desktop\\fraud2\\data\\PS_20174392719_1491204439457_log.csv",
+  "sample_size": "full",
+  "test_size": 0.2,
+  "random_seed": 42,
+  "imbalance_method": "undersample",
+  "sampling_strategy": 0.1,
+  "train_shape": [
+    72270,
+    27
+  ],
+  "test_shape": [
+    1272524,
+    27
+  ],
+  "target_column": "isFraud",
+  "feature_count": 26,
+  "train_target_distribution": {
+    "0": 65700,
+    "1": 6570
+  },
+  "test_target_distribution": {
+    "0": 1270881,
+    "1": 1643
+  },
+  "files": {
+    "train_csv": "train.csv",
+    "test_csv": "test.csv",
+    "feature_names": "feature_names.json",
+    "scaler": "scaler.pkl",
+    "label_encoder": "label_encoder.pkl"
+  }
+}

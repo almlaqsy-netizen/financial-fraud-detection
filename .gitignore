@@ -1,0 +1,52 @@
+# =========================
+# Python virtual environments
+# =========================
+venv/
+.venv/
+env/
+
+# =========================
+# Python cache files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Local environment variables and secrets
+# =========================
+.env
+.env.*
+
+# =========================
+# Dataset files
+# =========================
+*.csv
+*.parquet
+*.zip
+
+# =========================
+# Generated models and large artifacts
+# =========================
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# IDE and operating system files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
